@@ -12,6 +12,7 @@ int sum,n;
 
 int main()
 {
+	freopen("C:\\Users\\86133\\Desktop\\oop.homer\\1.txt","r",stdin);
 	scanf("%s %s %s %s",zs,wallet,opp,num);
     sum = trans_input(num);	
     sum = input_op(sum);
@@ -21,6 +22,7 @@ int main()
 		sum=-sum;
 	} 
 	printf_wallet(sum);
+	printf("\n");
     return 0;
 }
 
